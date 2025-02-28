@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="displayCart()">
+
+    <div id="cart-container"></div>
+    <div class="checkout">
+        <h2>Checkout</h2>
+        <p>Total Harga: <span id="total-price">Rp 0</span></p>
+        <p>Diskon 5%: <span id="discount">Rp 0</span></p>
+        <p><strong>Total Akhir: <span id="final-total">Rp 0</span></strong></p>
+
+        <h3>Informasi Pembeli</h3>
+        <label for="customer-name">Nama:</label>
+        <input type="text" id="customer-name" placeholder="masukan nama lengkap"><br>
+        <label for="customer-name">Nomor Ponsel:</label>
+        <input type="text" id="customer-phone" placeholder="masukan nomor telepon"><br>
+        <label for="customer-address">Alamat:</label>
+        <textarea id="customer-address" placeholder="masukan alamat lengkap anda"></textarea><br>
+        <button onclick="checkout()">Checkout</button>
+        <button type="button" class="btn btn-dark" onclick="location.href='index.html'">Kembali</button>
+    </div>
+    
+    <script src="beli.js"></script>
+</body>
+</html>

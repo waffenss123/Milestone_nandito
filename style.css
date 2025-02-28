@@ -1,0 +1,420 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000;
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+}
+/*nvabar nih yee*/
+.bg-navbarku{
+    background-color: #0B192C !important;
+    padding: 10px 0;
+}
+.navbar-brand img{
+    height: 30px;
+}
+.navbar-nav .nav-link{
+    color: #EEEEEE !important;
+    font-weight: bold;
+    padding: 8px 15px;
+    margin: 0 5px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.navbar-nav .nav-link:hover{
+    background-color: #1E3E62;
+}
+/*Banner*/
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner img{
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*card bawah banner*/
+.hero h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0B192C;
+    background-color: white;
+    border-radius: 15px;
+}
+.top-selling{
+    background: white;
+    text-align: center;
+    display: flex; 
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+.top-selling h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0B192C;
+    background-color: white;
+    border-radius: 15px;
+}
+.product-card{
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.product-card:hover{
+    transform: scale(1.05);
+}
+.product-card img{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.product-card h5{
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.product-card p{
+    font-size: 1rem;
+    color: #28a745;
+    font-weight: bold;
+}
+.add-to-cart {
+    background: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-to-cart:hover {
+    background: #218838;
+}
+/*newskuuh*/
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.news{
+    background: white;
+    text-align: center;
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+}
+.news h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0B192C;
+    background-color: white;
+    box-shadow: black;
+}
+#newsCarousel {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 400px;
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption h5 {
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color:#0B192C  ;
+    border-radius: 50%;
+    padding: 10px;
+  }
+/*form*/
+body .container-form{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+}
+
+.container-form {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.login-card{
+    background: white;
+    color: black;
+    padding: 30px; 
+    border-radius: 10px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    box-sizing: border-box;
+}
+.login-card input {
+    width: calc(100%-20px);    
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.container-form p{
+    display: block;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.container-form h2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0B192C;
+    margin-bottom: 20px;
+}
+.container-form button{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+.container-form button:hover{
+    background-color: #0B192C;
+    color: white;
+}
+
+/*co nih ye*/
+#cart-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cart-container h2 {
+    color: black;
+    background-color: white;
+}   
+.product-info h4{
+    margin: 0;
+    font-size: 15px;
+}
+.product-info p{
+    margin: 5px 0;
+    font-size: 14px;
+}
+.checkout{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+input,textarea{
+    width: 100%;    
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.checkout button{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.checkout button:hover{
+    background-color: #0B192C;
+    color: white;
+}
+/*gallery*/
+.gallery-banner{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    size: 400px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.gallery-container{
+    padding: 40px;
+    text-align: center;
+}
+.gallery-container h2{
+    margin-bottom: 20px;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.review{
+    background-color: #EBD3F8;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.review p{
+    font-style: italic;
+    font-weight: bold;
+}
+.review span{
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+/* Responsif untuk layar hp ges */
+  @media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-link {
+        margin: 5px 0;
+    }
+}
+  @media (max-width: 768px) {
+    .gallery-banner {
+        width: 100%;
+        max-height: 500px;
+        overflow: hidden; /* Tambahkan overflow: hidden untuk mencegah gambar meluap */
+    }
+    
+    .gallery-banner img {
+        width: 100%;
+        height: auto; /* Atau gunakan max-height jika ingin membatasi tinggi */
+        object-fit: cover; /* Atau object-fit: contain sesuai kebutuhan */
+        display: block; /* Mencegah ruang kosong di bawah gambar */
+    }
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .review {
+        width: 90%;
+        flex-basis: auto;
+    }
+
+    .gallery-container {
+        padding: 20px;
+    }
+    .carousel-item img {
+      max-height: 300px;
+    }
+  
+    .carousel-caption {
+      padding: 10px;
+    }
+    .login-card {
+        width: 90%; 
+        padding: 20px;
+        }
+    
+    .login-card input {
+            font-size: 14px;
+        }
+    
+    .container-form h2 {
+            font-size: 1.8rem;
+        }
+    
+    .container-form button {
+            font-size: 14px;
+        }
+    }
+
+
+    @media (max-width: 480px) {
+    .login-card {
+        padding: 15px;
+    }
+
+    .login-card input {
+        font-size: 13px; 
+    }
+
+    .container-form h2 {
+        font-size: 1.6rem;
+    }
+
+    .container-form button {
+        font-size: 13px;
+    }
+}
