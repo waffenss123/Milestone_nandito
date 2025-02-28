@@ -1,4 +1,3 @@
-// Countdown Timer
 function countdownTimer() {
     const matchDate = new Date("2025-03-20T00:00:00").getTime();
     const x = setInterval(() => {
